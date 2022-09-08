@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app/app_tab_bar_screen.dart';
 import 'package:movie_app/bottom_bar_screen.dart';
 
 void main() {
@@ -16,6 +15,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
       home: BottomBarScreen(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
